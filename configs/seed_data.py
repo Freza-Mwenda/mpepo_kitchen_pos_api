@@ -18,38 +18,87 @@ def seed_database():
         return
     
     # Sample products data with Decimal prices
+    # Sample products data with Decimal prices and image URLs
     sample_products = [
         {
-            "id": "1", "name": "Grilled Chicken", "price": Decimal('18.99'), "category": "Main Course",
-            "description": "Juicy grilled chicken with herbs and spices"
+            "id": "1",
+            "name": "Grilled Chicken",
+            "price": Decimal("18.99"),
+            "category": "Main Course",
+            "description": "Juicy grilled chicken with herbs and spices",
+            "image_url": "https://example.com/images/grilled_chicken.jpg"
         },
         {
-            "id": "2", "name": "Beef Burger", "price": Decimal('15.99'), "category": "Main Course",
-            "description": "Classic beef burger with cheese and vegetables"
+            "id": "2",
+            "name": "Beef Burger",
+            "price": Decimal("15.99"),
+            "category": "Main Course",
+            "description": "Classic beef burger with cheese and vegetables",
+            "image_url": "https://example.com/images/beef_burger.jpg"
         },
         {
-            "id": "3", "name": "French Fries", "price": Decimal('5.99'), "category": "Side Dish",
-            "description": "Crispy golden fries with seasoning"
+            "id": "3",
+            "name": "French Fries",
+            "price": Decimal("5.99"),
+            "category": "Side Dish",
+            "description": "Crispy golden fries with seasoning",
+            "image_url": "https://example.com/images/french_fries.jpg"
         },
         {
-            "id": "4", "name": "Greek Salad", "price": Decimal('12.99'), "category": "Salad",
-            "description": "Fresh vegetables with feta cheese and olive oil"
+            "id": "4",
+            "name": "Greek Salad",
+            "price": Decimal("12.99"),
+            "category": "Salad",
+            "description": "Fresh vegetables with feta cheese and olive oil",
+            "image_url": "https://example.com/images/greek_salad.jpg"
         },
         {
-            "id": "5", "name": "Coca Cola", "price": Decimal('3.99'), "category": "Beverage",
-            "description": "Cold refreshing carbonated drink"
+            "id": "5",
+            "name": "Coca Cola",
+            "price": Decimal("3.99"),
+            "category": "Beverage",
+            "description": "Cold refreshing carbonated drink",
+            "image_url": "https://example.com/images/coca_cola.jpg"
         },
         {
-            "id": "6", "name": "Ice Cream", "price": Decimal('6.99'), "category": "Dessert",
-            "description": "Vanilla ice cream with chocolate sauce"
+            "id": "6",
+            "name": "Ice Cream",
+            "price": Decimal("6.99"),
+            "category": "Dessert",
+            "description": "Vanilla ice cream with chocolate sauce",
+            "image_url": "https://example.com/images/ice_cream.jpg"
         },
         {
-            "id": "7", "name": "Chicken Wings", "price": Decimal('11.99'), "category": "Appetizer",
-            "description": "Spicy chicken wings with dip sauce"
+            "id": "7",
+            "name": "Chicken Wings",
+            "price": Decimal("11.99"),
+            "category": "Appetizer",
+            "description": "Spicy chicken wings with dip sauce",
+            "image_url": "https://example.com/images/chicken_wings.jpg"
         },
         {
-            "id": "8", "name": "Pasta Carbonara", "price": Decimal('14.99'), "category": "Main Course",
-            "description": "Creamy pasta with bacon and parmesan"
+            "id": "8",
+            "name": "Pasta Carbonara",
+            "price": Decimal("14.99"),
+            "category": "Main Course",
+            "description": "Creamy pasta with bacon and parmesan",
+            "image_url": "https://example.com/images/pasta_carbonara.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Chocolate Cake",
+            "price": Decimal("7.99"),
+            "category": "Dessert",
+            "description": "Rich chocolate cake with ganache",
+            "image_url": "https://example.com/images/chocolate_cake.jpg"
+        },
+        {
+            "id": "10",
+            "name": "Lemonade",
+            "price": Decimal("4.50"),
+            "category": "Beverage",
+            "description": "Freshly squeezed lemonade with mint",
+            "image_url": "https://example.com/images/lemonade.jpg"
         }
     ]
     

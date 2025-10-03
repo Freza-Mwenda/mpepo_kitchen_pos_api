@@ -9,7 +9,7 @@ from configs.oauth import oauth2_scheme
 from models.authentication.user_model import UserDB
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-SECRET_KEY = "your-secret-key-change-in-production-mpepo-kitchen-2024"
+SECRET_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
