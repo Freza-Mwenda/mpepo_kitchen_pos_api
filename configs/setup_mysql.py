@@ -19,7 +19,7 @@ def create_database():
         
         with connection.cursor() as cursor:
             # Create database if it doesn't exist
-            db_name = os.getenv("DB_NAME", "mpepo_pos")
+            db_name = os.getenv("DB_NAME", "prod_mpepo_db")
             cursor.execute(f"CREATE DATABASE IF NOT EXISTS {db_name} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
             print(f"Database '{db_name}' created or already exists")
             
@@ -36,7 +36,7 @@ def test_connection():
             port=int(os.getenv("DB_PORT", "3306")),
             user=os.getenv("DB_USER", "root"),
             password=os.getenv("DB_PASSWORD", ""),
-            database=os.getenv("DB_NAME", "mpepo_pos"),
+            database=os.getenv("DB_NAME", "prod_mpepo_db"),
             charset='utf8mb4'
         )
         

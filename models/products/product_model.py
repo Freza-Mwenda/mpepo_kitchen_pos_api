@@ -12,6 +12,6 @@ class ProductDB(Base):
     price = Column(DECIMAL(10, 2), nullable=False)
     category = Column(String(50), nullable=False)
     description = Column(Text, nullable=True)
-    image_url = Column(String(200), nullable=True)
+    image_url = Column(String(10000), nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     is_active = Column(Integer, default=1)

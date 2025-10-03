@@ -26,7 +26,7 @@ def seed_database():
             "price": Decimal("18.99"),
             "category": "Main Course",
             "description": "Juicy grilled chicken with herbs and spices",
-            "image_url": "https://example.com/images/grilled_chicken.jpg"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuBkZLiOpt0tSb3fhdk_lek5yXHWoNdKvwQDMnbtCEBNVbFIPyekMlFNeh0mdKbqWOYFQLuKBGMwLS9vmd9ceQWQUTdQT63IBha5L89w"
         },
         {
             "id": "2",
@@ -34,7 +34,7 @@ def seed_database():
             "price": Decimal("15.99"),
             "category": "Main Course",
             "description": "Classic beef burger with cheese and vegetables",
-            "image_url": "https://example.com/images/beef_burger.jpg"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQcoXWLIiYs_u54dOx8J_1DpCZNKBKcQJe0A&s"
         },
         {
             "id": "3",
@@ -42,7 +42,7 @@ def seed_database():
             "price": Decimal("5.99"),
             "category": "Side Dish",
             "description": "Crispy golden fries with seasoning",
-            "image_url": "https://example.com/images/french_fries.jpg"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQcoXWLIiYs_u54dOx8J_1DpCZNKBKcQJe0A&s"
         },
         {
             "id": "4",
@@ -50,7 +50,7 @@ def seed_database():
             "price": Decimal("12.99"),
             "category": "Salad",
             "description": "Fresh vegetables with feta cheese and olive oil",
-            "image_url": "https://example.com/images/greek_salad.jpg"
+            "image_url": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2021/12/131980110_691132031599382_7883691975085799914_o-1024x804-1.jpg?fit=750%2C589&ssl=1"
         },
         {
             "id": "5",
@@ -58,7 +58,7 @@ def seed_database():
             "price": Decimal("3.99"),
             "category": "Beverage",
             "description": "Cold refreshing carbonated drink",
-            "image_url": "https://example.com/images/coca_cola.jpg"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQcoXWLIiYs_u54dOx8J_1DpCZNKBKcQJe0A&s"
         },
         {
             "id": "6",
@@ -66,7 +66,7 @@ def seed_database():
             "price": Decimal("6.99"),
             "category": "Dessert",
             "description": "Vanilla ice cream with chocolate sauce",
-            "image_url": "https://example.com/images/ice_cream.jpg"
+            "image_url": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2021/12/131980110_691132031599382_7883691975085799914_o-1024x804-1.jpg?fit=750%2C589&ssl=1"
         },
         {
             "id": "7",
@@ -74,7 +74,7 @@ def seed_database():
             "price": Decimal("11.99"),
             "category": "Appetizer",
             "description": "Spicy chicken wings with dip sauce",
-            "image_url": "https://example.com/images/chicken_wings.jpg"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQcoXWLIiYs_u54dOx8J_1DpCZNKBKcQJe0A&s"
         },
         {
             "id": "8",
@@ -82,7 +82,7 @@ def seed_database():
             "price": Decimal("14.99"),
             "category": "Main Course",
             "description": "Creamy pasta with bacon and parmesan",
-            "image_url": "https://example.com/images/pasta_carbonara.jpg"
+            "image_url": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2021/12/131980110_691132031599382_7883691975085799914_o-1024x804-1.jpg?fit=750%2C589&ssl=1"
         },
         {
             "id": "9",
@@ -90,7 +90,7 @@ def seed_database():
             "price": Decimal("7.99"),
             "category": "Dessert",
             "description": "Rich chocolate cake with ganache",
-            "image_url": "https://example.com/images/chocolate_cake.jpg"
+            "image_url": "https://www.zimbokitchen.com/wp-content/uploads/2022/06/MINCE-PASTA-3-750x500.jpg"
         },
         {
             "id": "10",
@@ -98,7 +98,7 @@ def seed_database():
             "price": Decimal("4.50"),
             "category": "Beverage",
             "description": "Freshly squeezed lemonade with mint",
-            "image_url": "https://example.com/images/lemonade.jpg"
+            "image_url": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2021/12/131980110_691132031599382_7883691975085799914_o-1024x804-1.jpg?fit=750%2C589&ssl=1"
         }
     ]
     
